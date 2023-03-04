@@ -1,0 +1,116 @@
+:root{
+    font-size:50%;
+    font-family: Poppins, sans-serif;
+}
+body{
+    background-color: #eef;
+    padding:0;
+    margin:0;
+}
+h1{
+    font-size: 4rem;
+}
+
+
+/* Header and Navigation */
+nav{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 0.2rem solid #41436a;
+    height:6rem;
+}
+.navSection1{
+    display:flex;
+}
+.navSection2{
+    display:flex;
+    width:30%;
+    justify-content:space-between;
+}
+.navLinksContainer{
+    margin-left:4rem;
+}
+.navMenu{
+    list-style: none;
+    display:flex;
+    padding-left:1rem;
+    margin:0rem;
+}
+.navItems{
+    margin:0.5rem;
+    padding:1rem;
+    box-sizing:border-box;
+}
+.navLinks{
+    text-decoration:none;
+    font-size:2.2rem;
+    margin:0rem 1rem 1rem 0rem;
+    color:#100;
+}
+.navLinks:hover{
+    transition:700ms;
+    color:#974063;
+ }
+.headerName{
+    margin:0;
+    margin-left:1rem;
+    color:#974063;
+    cursor:pointer;
+}
+.productSearch{
+    border:0.3rem solid #974063;
+    background:transparent;
+    border-radius:2rem;
+    font-size:2rem;
+    height:5rem;
+    margin:auto;
+    padding-left:1rem;
+    width:30%;
+}
+.productSearch:focus{
+    transition:1000ms;
+    border-radius:0rem;
+    width:40%;
+}
+/* .productSearch:after{
+    transition:1000ms;
+    border-radius:2rem;
+    width:30%;
+} */
+.userRelated{
+    display:flex;
+    justify-content:space-between;
+    margin:auto;
+}
+.userRelatedIcons{
+    font-size:3rem;
+    margin:auto 3rem auto 1rem;
+}
+
+
+
+/* Footer and Sponsors */
+footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-top:2px solid black;
+}
+.footerName{
+    font-weight:600;
+    font-size:7rem;
+}
+.partners{
+    display:flex;
+    justify-content:space-around;
+}
+.partnersIcon{
+    font-size:7rem;
+}
+.panda{
+    width:7rem;
+    height:7rem;
+}
+.partnersEdit{
+    margin:auto 3rem auto 3rem;
+}
