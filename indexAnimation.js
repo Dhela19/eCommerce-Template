@@ -3,8 +3,8 @@
 //Declaration of global variables
 console.log("animation script loaded")
 featuredName = document.getElementById('featuredName')
-featuredImageContainer = document.getElementsById('featuredImageContainer')
-featuredCTA = document.getElementsById('featuredCTA')
+featuredImageContainer = document.getElementById('featuredImageContainer')
+featuredCTA = document.getElementById('featuredCTA')
 
 
 function featuredNameAnimate(){
@@ -21,12 +21,12 @@ function featuredNameReturn(){
 
 
 function featuredImageContainerAnimate(){
-    featuredImageContainer.style=" transition:1s; box-shadow: 0 0 2rem #974063; transform: scale(1.005);"
+    featuredImageContainer.style=" transition:1s; transform: scale(1.05);"
     console.log("AnimatingFeaturedImageContainer")
 }
 
 function featuredImageContainerReturn(){
-    featuredImageContainer.style="transition:1s; transform: scale(1); box-shadow:0; "
+    featuredImageContainer.style="transition:1s; transform: scale(1); "
     console.log("featuredImageContainerAnimationStop")
 }
 

@@ -4,149 +4,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeepShop</title>
-    <link rel="stylesheet" href="boiler.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="product.css">
+    <script src="https://kit.fontawesome.com/63483fd584.js" crossorigin="anonymous"></script>
+    <title>eBazaar| Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Roboto+Condensed:wght@700&family=Roboto:wght@500&display=swap');
+        </style>
 </head>
 <body>
-    <div class="body">
+    <header>
+        <nav>
+            <div class="navSection1">
+                <h1 class="headerName">
+                    eBazaar
+                </h1>
+                <div class="navLinksContainer">
+                    <ul class="navMenu">
+                        <li class="navItems">
+                            <a href="http://" class="navLinks">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="navItems">
+                            <a href="http://" class="navLinks">
+                                Pages
+                            </a>
+                        </li>
+                        <li class="navItems">
+                            <a href="http://" class="navLinks">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="navItems">
+                            <a href="http://" class="navLinks">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navSection2">
+                <input type="search" name="Product Search" class="productSearch" id="productSearchBar" placeholder="Type to Search" onblur="releaseAnimation()" onfocus="animateSearchBar()">
+                <div class="userRelated">
+                    <i class="fa-regular fa-heart userRelatedIcons"></i>
+                    <i class="fa-regular fa-user userRelatedIcons"></i>
+                    <i class="fa-solid fa-cart-shopping userRelatedIcons"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 
-       <header>
-            <h1>DeepShop</h1>
-            <ul id="navigationLinks">
-                <li class="navitems">
-                    home
-                </li>
-                <li class="navitems">
-                    cart
-                </li>
-            </ul>
-       </header>
 
 
-       <main>
-        <div class="flash">
-            <div id="saleContainer">
-                <h3 id="flashTitle">
-                    Flash Sales
-                </h3>
-                <p id="flashTimer" class="info">
-                    2 Days Left, Hurry!
-                </p>
+
+    <main>
+        <div class="featured">
+            <div class="featuredDetailsContainer">
+               <h2 id="featuredName" onmouseenter="featuredNameAnimate()" onmouseleave="featuredNameReturn()">
+                Hand Craftables
+               </h2>
+               <button id="featuredCTA">
+                Shop Now
+               </button>
+            </div>
+            <div id="featuredImageContainer" onmouseenter="featuredImageContainerAnimate()" onmouseleave="featuredImageContainerReturn()" >
+                <img src="./res/crafted1.png" alt="" srcset=""class="featuredImage">
+                <!-- <img src="./ankara1.png" alt="" srcset=""> -->
             </div>
         </div>
 
-
-        <div class="productSect">
-            <h3 class="featuredHeading">
-                Featured Products
-            </h3>
-                <div id="featured">
-
-
-                    <div class="itemContainer">
-                        <div class="itemImage">
-                            <img class="item" src="./demo.jpg" alt="sampleimage">
-                        </div>
-                        <div class="itemDetails">
-                            <h3 class="itemName">Macbook 2022 Air | M2</h3>
-                            <p class="itemPrice">
-                                N970,00<span class="beforePrice">N1,120,000</span>
-                            </p>
-                            <button class="btn saveForLater">Save Item</button>
-                        </div>
-                    </div>
-
-                    <div class="itemContainer">
-                        <div class="itemImage">
-                            <img class="item"src="./demo.jpg" alt="sampleimage">
-                        </div>
-                        <div class="itemDetails">
-                            <h3 class="itemName">Lenovo AMD Ryzen 5</h3>
-                            <p class="itemPrice">
-                                N260,00<span class="beforePrice">N310,000</span>
-                            </p>
-                            <button class="btn saveForLater">Save Item</button>
-                        </div>
-                    </div>
-
-                    <div class="itemContainer">
-                        <div class="itemImage">
-                            <img class="item" src="./demo.jpg" alt="sampleimage">
-                        </div>
-                        <div class="itemDetails">
-                            <h3 class="itemName">Raspberry PI 4</h3>
-                            <p class="itemPrice">
-                                N25,000<span class="beforePrice">N32,000</span>
-                            </p>
-                            <button class="btn saveForLater">Save Item</button>
-                        </div>
-                    </div>
-
-                    <div class="itemContainer">
-                        <div class="itemImage">
-                            <img class="item" src="./demo.jpg" alt="sampleimage">
-                        </div>
-                        <div class="itemDetails">
-                            <h3 class="itemName">LED Strips </h3>
-                            <p class="itemPrice">
-                                N9,000<span class="beforePrice">N15,000</span>
-                            </p>
-                            <button class="btn saveForLater">Save Item</button>
-                        </div>
-                    </div>
-
-
+        <div id="categoriesContainer">
+            <div class="categories">
+                <div class="categoryContainer" id="shoes">
+                   ' <!-- <img src="./res/shoes.png"background-image  alt="" srcset="" class="categoriesBackground">' -->
+                    <h3 class="categoryName" id="shoesCont">
+                        Shoes
+                    </h3>
                 </div>
-        </div>
-
-
-        <!-- Fashion Section -->
-        <div class="productSect">
-            <h3 class="featuredHeading" class="objectBack">
-                Fashion
-            </h3>
-                <div id="featured">
-
-                    <div class="itemContainer">
-                        <div class="itemImage">
     
-                        </div>
-                        <div class="itemDetails">
-                            <h3 class="itemName">Fashion 1</h3>
-                            <p class="itemPrice">
-                                Fashion 1 Price
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="itemContainer">
-                        <div class="itemImage">
-    
-                        </div>
-                        <div class="itemDetails">
-                            <h3 class="itemName">Fashion 2</h3>
-                            <p class="itemPrice">
-                                Fashion 2 Price
-                            </p>
-                        </div>
-                    </div>
-
+                <div class="categoryContainer" id="bags">
+                    <h3 class="categoryName">
+                        Bags
+                    </h3>
                 </div>
+    
+                <div class="categoryContainer" id="bodyWears">
+                    <h3 class="categoryName">
+                        Body Wears
+                    </h3>
+                </div>
+            </div>
+    
         </div>
-       </main>
+        <div class="trending">
+            <div id="trendingSection1">
+                <h2 id="trendingTitle">
+                    What's Trending
+                </h2>
+            </div>
+            <div id="trendingSection2">
+                <div class="trendingItemContainer">
+                    <div class="trendingItemImageContainer">
+                        <img class="trendingItemImage" src="./res/shoes_res/shoeimg12.jpg" alt="sampleimage">
+                    </div>
+                    <div class="trendingItemDetails">
+                        <h3 class="trendingItemName"> Nike Sneaker</h3>
+                        <p class="trendingItemPrice">
+                            N17,999<span class="beforePrice">N20,999</span>
+                        </p>
+                    </div>
+                </div>
+    
+               <div class="trendingItemContainer">
+                    <div class="trendingItemImageContainer">
+                        <img class="trendingItemImage" src="./demo.jpg" alt="sampleimage">
+                    </div>
+                    <div class="trendingItemDetails">
+                        <h3 class="trendingItemName">Raspberry PI 4</h3>
+                        <p class="trendingItemPrice">
+                            N25,000<span class="beforePrice">N32,000</span>
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="trendingItemContainer">
+                    <div class="trendingItemImageContainer">
+                        <img class="trendingItemImage" src="./demo.jpg" alt="sampleimage">
+                    </div>
+                    <div class="trendingItemDetails">
+                        <h3 class="trendingItemName">Raspberry PI 4</h3>
+                        <p class="trendingItemPrice">
+                            N25,000<span class="beforePrice">N32,000</span>
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="trendingItemContainer">
+                    <div class="trendingItemImageContainer">
+                        <img class="trendingItemImage" src="./demo.jpg" alt="sampleimage">
+                    </div>
+                    <div class="trendingItemDetails">
+                        <h3 class="trendingItemName">Raspberry PI 4</h3>
+                        <p class="trendingItemPrice">
+                            N25,000<span class="beforePrice">N32,000</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
 
 
-       <div id="product">
-        
-       </div>
 
 
-       <footer>
-        <a href="./product.html" class="btn">Product Page Demo</a>
-       </footer>
-    </div>
-</body>
+
+    <footer>
+        <h2 class="footerName">
+            eBazaar
+        </h2>
+        <div class="partners">
+            <i class="fa-brands fa-ebay partnersIcon partnersEdit"></i>
+            <i class="fa-brands fa-amazon partnersIcon partnersEdit"></i>
+           <img src="https://i.ibb.co/m4Nh5mV/icons8-panda-64.png" alt="" srcset="" class="panda partnersEdit" >
+        </div>
+    </footer>
+    <script src="./indexAnimation.js"></script>
+    <script src="./general.js"></script>
 </html>
