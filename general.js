@@ -15,6 +15,6 @@ function animateSearchBar(){
 }
 
 function releaseAnimation(){
-    productSearchBar.style = "  transition:1000ms; border-radius:2rem; width:auto%;"
+    productSearchBar.style = "  transition:1000ms; border-radius:1rem; width:auto%;"
     console.log("productSearchBar.return")
 }

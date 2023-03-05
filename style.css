@@ -61,9 +61,10 @@ nav{
 .productSearch{
     border:0.4rem solid #974063;
     background:transparent;
-    border-radius:2rem;
+    border-radius:1rem;
     font-size:2rem;
     height:5rem;
+    font-family: Poppins, Sans-serif;
     margin:auto;
     padding-left:1rem;
     width:30%;
