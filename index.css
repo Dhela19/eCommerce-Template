@@ -127,7 +127,7 @@
 }
 #trendingTitle{
     font-size: 4rem;
-    color:#300;
+    color:#400;
     font-weight:600;
     text-decoration: underline;
     margin-left:1rem;
@@ -149,10 +149,18 @@
 .trendingItemImageContainer{
     overflow: hidden;
 }
+.trendingItemContainer:hover{
+    transition:1s;
+    cursor:pointer;
+}
 .trendingItemImage{
     object-position: center;
     width:100%;
     height:140%;
+}
+.trendingItemImage:hover{
+    transition:1s;
+    transform: scale(1.05);
 }
 .trendingItemDetails{
     height:30%;
