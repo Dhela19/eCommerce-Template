@@ -1,0 +1,30 @@
+.categoryCover{
+    min-height: 30vh;
+    height:auto;
+    background-image:url(./demo.jpg);
+    margin-top:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+#coverText{
+    font-size:5rem;
+    color:#974063;
+    font-weight:900;
+    text-align:center;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.itemCategory{
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: center;
+}
+.itemContainer{
+    margin-bottom:3rem;
+}

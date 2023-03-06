@@ -1,0 +1,87 @@
+.flashSales{
+    background:#ff9677;
+    margin:2rem;
+    height:10vh;
+    display:flex;
+    justify-content:space-between;
+    border:0.3rem solid #401;
+    box-shadow:0rem 0rem 2rem #ff9677;
+}
+.flashSales:hover{
+    transition: 500ms;
+    cursor:pointer;
+    box-shadow:0rem 0rem 0rem;
+}
+#flashSalesText{
+    font-size:2rem;
+    color:#974063;    
+    padding:1rem;
+    box-sizing: border-box;
+}
+/* item box styling */
+.itemCategory{
+    margin:2rem 0rem 7rem 0rem;
+    border-top:0.4rem solid #100;
+    border-bottom:0.4rem solid #100;
+    padding:1rem;
+    background:#97406336;
+}
+.itemCategoryName{
+    font-size:4rem;
+    padding:0;
+    margin:0;
+}
+.itemCategorySect1{
+    display:flex;
+    flex-direction:row;
+}
+.itemContainer{
+    width:30vw;
+    overflow: hidden;
+    height:50rem;
+    border:1px solid #300;
+    margin:auto 1rem auto 1rem;
+    display:flex;
+    flex-direction:column;
+    margin-top:1rem;
+}
+.itemImageContainer{
+    overflow: hidden;
+}
+.itemContainer:hover{
+    transition:1s;
+    cursor:pointer;
+}
+.itemImage{
+    object-position: center;
+    width:100%;
+    height:140%;
+}
+.itemImage:hover{
+    transition:1s;
+    transform: scale(1.05);
+}
+.itemDetails{
+    height:30%;
+    margin-left:1rem;
+}
+.itemName{
+    color:#100;
+    font-size:3rem;
+}
+.itemPrice{
+    color:black;
+    font-size:2rem;
+}
+.seeMore{
+    color:#974063;
+    font-size:2rem;
+    font-weight: 600;
+    width:10%;
+    display:block;
+}
+.seeMore:hover{
+    transition: 1.5s;
+    text-decoration:underline;
+    cursor:pointer;
+}
