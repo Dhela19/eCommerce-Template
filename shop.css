@@ -6,6 +6,7 @@
     justify-content:space-between;
     border:0.3rem solid #401;
     box-shadow:0rem 0rem 2rem #ff9677;
+    overflow: hidden;
 }
 .flashSales:hover{
     transition: 500ms;

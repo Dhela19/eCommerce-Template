@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="shop.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="category.css">
     <script src="https://kit.fontawesome.com/63483fd584.js" crossorigin="anonymous"></script>
-    <title>eBazaar | Shop</title>
+    <title>eBazaar | Shoes - Category</title>
+    <script async src="https://cse.google.com/cse.js?cx=e3092aac261b54ad1"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Roboto+Condensed:wght@700&family=Roboto:wght@500&display=swap');
         </style>
@@ -47,7 +48,6 @@
             </div>
             <div class="navSection2">
                 <!-- <input type="search" name="Product Search" class="productSearch" id="productSearchBar" placeholder="Search..." onblur="releaseAnimation()" onfocus="animateSearchBar()"> -->
-                
                 <div class="gcse-searchbox-only"></div>
                 <div class="userRelated">
                     <i class="fa-regular fa-heart userRelatedIcons"></i>
@@ -63,35 +63,31 @@
 
 
 
+
     <main>
+        <div class="categoryCover">
+            <h1 id="coverText">
+                . . .
+             </h2>
+        </div>
+        <div class="itemCategory">
 
-        <div class="contactContainer" id="firstContact" onmouseenter="contactContainerAnimationStart()">
-            <div class="contactLogoSection" >
-                <i class="fa-brands fa-ebay contactIcons partnersEdit"></i>
-            </div>
-            <p class="contactName" onclick="redirectEbay()" >
-                Ebay Fashion
-            </p>            
+                <!-- <div class="itemContainer">
+                    <div class="itemImageContainer">
+                        <img class="itemImage" src="./demo.jpg" alt="sampleimage">
+                    </div>
+                    <div class="itemDetails">
+                        <h3 class="itemName">Item Name</h3>
+                        <p class="itemPrice">
+                            N0,000<span class="beforePrice">N0,000</span>
+                        </p>
+                    </div>
+                </div> -->
         </div>
 
-        <div class="contactContainer">
-            <div class="contactLogoSection">
-                <i class="fa-brands fa-amazon contactIcons partnersEdit"></i>
-            </div>
-            <p class="contactName" onclick="redirectAmazon()">
-                Amazon Fashion
-            </p>            
-        </div>
 
-        <div class="contactContainer">
-            <div class="contactLogoSection">
-                <img src="https://i.ibb.co/m4Nh5mV/icons8-panda-64.png" alt="" srcset="" class="contactPanda partnersEdit contactIcons" >
-            </div>
-            <p class="contactName" onclick="redirectPanda()">
-               Panda
-            </p>            
-        </div>
-       
+      
+    
     </main> 
 
 
@@ -108,9 +104,8 @@
            <img src="https://i.ibb.co/m4Nh5mV/icons8-panda-64.png" alt="" srcset="" class="panda partnersEdit" >
         </div>
     </footer>
+</body>
     <script src="./indexAnimation.js"></script>
-    <script async src="https://cse.google.com/cse.js?cx=e3092aac261b54ad1">
-    </script>
     <script src="./general.js"></script>
-    <script src="./contact.js"></script>
+    <script src="./fetchitems.js" async></script>
 </html>

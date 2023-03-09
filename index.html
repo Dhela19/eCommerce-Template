@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
+    <script src="./general.js" defer ></script>
     <script src="https://kit.fontawesome.com/63483fd584.js" crossorigin="anonymous"></script>
     <title>eBazaar | Home</title>
     <style>
@@ -16,7 +17,7 @@
     <header>
         <nav>
             <div class="navSection1">
-                <h1 class="headerName" onclick="home()">
+                <h1 class="headerName" >
                     eBazaar
                 </h1>
                 <div class="navLinksContainer">
@@ -45,7 +46,8 @@
                 </div>
             </div>
             <div class="navSection2">
-                <input type="search" name="Product Search" class="productSearch" id="productSearchBar" placeholder="Search..." onblur="releaseAnimation()" onfocus="animateSearchBar()">
+                <!-- <input type="search" name="Product Search" class="productSearch" id="productSearchBar" placeholder="Search..." onblur="releaseAnimation()" onfocus="animateSearchBar()"> -->
+                <div class="gcse-searchbox-only"></div>
                 <div class="userRelated">
                     <i class="fa-regular fa-heart userRelatedIcons"></i>
                     <i class="fa-regular fa-user userRelatedIcons"></i>
@@ -70,7 +72,7 @@
                </button>
             </div>
             <div id="featuredImageContainer" onmouseenter="featuredImageContainerAnimate()" onmouseleave="featuredImageContainerReturn()" >
-                <img src="./res/crafted1.png" alt="" srcset=""class="featuredImage">
+                <img src="./res/handcraftablesCover.png" alt="" srcset=""class="featuredImage">
                 <!-- <img src="./ankara1.png" alt="" srcset=""> -->
             </div>
         </div>
@@ -128,7 +130,7 @@
                         </p>
                     </div>
                 </div>
-    
+                
                 <div class="trendingItemContainer">
                     <div class="trendingItemImageContainer">
                         <img class="trendingItemImage" src="./res/wear_res/polo.png" alt="sampleimage">
@@ -171,5 +173,6 @@
         </div>
     </footer>
     <script src="./indexAnimation.js"></script>
-    <script src="./general.js"></script>
+  
+    <script async src="https://cse.google.com/cse.js?cx=e3092aac261b54ad1"></script>
 </html>

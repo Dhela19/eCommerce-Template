@@ -1,0 +1,91 @@
+[
+    {
+         "name":"Product Name",
+         "price":1000,
+         "shop":"shopName",
+         "description":"this is the description of this product",
+         "imagePath":"./demo.png",
+         "productID":100
+    },
+
+    {
+        "name":"Product Name",
+        "price":1000,
+        "shop":"shopName",
+        "description":"this is the description of this product",
+        "imagePath":"./demo.png",
+        "productID":100
+   },
+
+   {
+    "name":"Product Name",
+    "price":1000,
+    "shop":"shopName",
+    "description":"this is the description of this product",
+    "imagePath":"./demo.png",
+    "productID":100
+},
+
+{
+    "name":"Product Name",
+    "price":1000,
+    "shop":"shopName",
+    "description":"this is the description of this product",
+    "imagePath":"./demo.png",
+    "productID":100
+},
+
+{
+    "name":"Product Name",
+    "price":1000,
+    "shop":"shopName",
+    "description":"this is the description of this product",
+    "imagePath":"./demo.png",
+    "productID":100
+},
+
+{
+    "name":"Product Name",
+    "price":1000,
+    "shop":"shopName",
+    "description":"this is the description of this product",
+    "imagePath":"./demo.png",
+    "productID":100
+},
+
+{
+    "name":"Product Name",
+    "price":1000,
+    "shop":"shopName",
+    "description":"this is the description of this product",
+    "imagePath":"./demo.png",
+    "productID":100
+},
+
+{
+    "name":"Product Name",
+    "price":1000,
+    "shop":"shopName",
+    "description":"this is the description of this product",
+    "imagePath":"./demo.png",
+    "productID":100
+},
+
+{
+    "name":"Product Name",
+    "price":1000,
+    "shop":"shopName",
+    "description":"this is the description of this product",
+    "imagePath":"./demo.png",
+    "productID":100
+},
+
+{
+    "name":"Product Name",
+    "price":1000,
+    "shop":"shopName",
+    "description":"this is the description of this product",
+    "imagePath":"./demo.png",
+    "productID":100
+}
+]
