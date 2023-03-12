@@ -10,7 +10,8 @@ let categoryHeader = localStorage.getItem("categoryHeader")
 let jsonPath = localStorage.getItem("jsonPath")
 let itemName = document.querySelector(".itemName");
 let itemPrice = document.querySelector(".itemPrice");
-let beforePrice  = document.querySelector(".beforePrice");
+let beforePrice  = document.querySelectorAll(".beforePrice");
+// let itemContainer = document.getElementsByClassName('itemContainer');
 let displayData
 let resultFromJson
 
@@ -18,7 +19,7 @@ let resultFromJson
 
 //updating page manually
 coverText.innerText = categoryHeader
-categoryCover.style =`background-image:url("./res/${jsonPath}Cover.png")`
+categoryCover.style =`background-image:url("./res/${jsonPath}Cover.jpg")`
 coverText.innerText = localStorage.getItem("categoryHeader")
 
 //Fetching JSON Database
@@ -30,8 +31,9 @@ try{
     .then((data) => {
       // do stuff with the data
      resultFromJson = data;
+   
     getData(resultFromJson)
-      console.log(resultFromJson)
+    //   console.log(resultFromJson)
     });
 }
 catch(err){
@@ -89,6 +91,7 @@ function getData(resultFromJson){
 
 
 function loopingResults(displayData){
+   
     console.log("updating page with the results")
 try {
     displayData.forEach((each, id)=>{
@@ -102,6 +105,8 @@ try {
                             <p class="itemPrice">
                                 N${each.price}<span class="beforePrice">N${each.price}</span>
                             </p>
+                            <p id="id" class="hiddenStatus">${each.productID}</p>
+                            <p id="cat" class="hiddenStatus">${each.productCat}</p>
                         </div>
                             </div>`    
                         
@@ -109,6 +114,7 @@ try {
         console.log("data has been uploaded successful")
         
     })
+    doSomethingForMe(displayData)
 } catch (error) {
     alert(error)
 }

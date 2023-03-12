@@ -1,92 +1,112 @@
 [
     {
-         "name":"Product Name",
-         "price":1000,
-         "shop":"shopName",
-         "description":"this is the description of this product",
-         "imagePath":"./demo.png",
-         "productID":100
+	 "name":"Strong Leather Shoes",
+	 "price":3000,
+	 "shop":"Amazon",
+   	 "description":"Great choice for all traditional ceremonies",
+	 "imagePath":"/res/shoes_res/shoeimg1.jpg",
+         "productID":0,
+         "productUserID":"SH0",
+         "productCat":"shoes"
     },
 
     {
-        "name":"Product Name",
-        "price":1000,
-        "shop":"shopName",
-        "description":"this is the description of this product",
-        "imagePath":"./demo.png",
-        "productID":100
+        "name":"Nice Looking Nike Sneakers",
+        "price":9000,
+        "shop":"Amazon",
+        "description":"A nice nike show for it suiting need",
+          "imagePath":"/res/shoes_res/shoeimg2.jpg",
+        "productID":1,
+        "productUserID":"SH1",
+        "productCat":"shoes"
    },
 
    {
-    "name":"Product Name",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Comfortable Sneakers",
+    "price":7000,
+    "shop":"Amazon",
+    "description":"Suitable for most outdoor activities",
+     "imagePath":"/res/shoes_res/shoeimg3.jpg",
+    "productID":2,
+    "productUserID":"SH2",
+    "productCat":"shoes"
 },
 
 {
-    "name":"Product Name",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Green Nike Sneakers",
+    "price":8000,
+    "shop":"Amazon",
+    "description":"Take your love for foot wears with a little nature related color",
+     "imagePath":"/res/shoes_res/shoeimg4.jpg",
+    "productID":3,
+    "productUserID":"SH4",
+    "productCat":"shoes"
 },
 
 {
-    "name":"Product Name",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"White Sneakers",
+    "price":9500,
+    "shop":"Ebay",
+    "description":"Suit all outdoor needs",
+    "imagePath":"/res/shoes_res/shoeimg5.jpg",
+    "productID":4,
+    "productUserID":"SH4",
+    "productCat":"shoes"
 },
 
 {
-    "name":"Product Name",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"White Gucci Sneaker",
+    "price":15000,
+    "shop":"Amazon",
+    "description":"Seize the room with your look",
+    "imagePath":"/res/shoes_res/shoeimg6.jpg",
+    "productID":5,
+    "productUserID":"Sh5",
+    "productCat":"shoes"
 },
 
 {
-    "name":"Product Name",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Neon Looking Nike Sneaker",
+    "price":9000,
+    "shop":"Ebay",
+    "description":"Awesome for your next casual look",
+     "imagePath":"/res/shoes_res/shoeimg13.jpg",
+    "productID":6,
+    "productUserID":"SH6",
+    "productCat":"shoes"
 },
 
 {
-    "name":"Product Name",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Black Nike Shoe",
+    "price":5999,
+    "shop":"Amazon",
+    "description":"Best for college students",
+    "imagePath":"/res/shoes_res/shoeimg12.jpg",
+    "productID":7,
+    "productUserID":"Sh7",
+    "productCat":"shoes"
 },
 
 {
-    "name":"Product Name",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Red Nike Shoes",
+    "price":3589,
+    "shop":"Amazon",
+    "description":"Amazing for parties and outdoor fun activities",
+    "imagePath":"/res/shoes_res/shoeimg9.jpg",
+    "productID":8,
+    "productUserID":"SH9",
+    "productCat":"shoes"
 },
 
 {
-    "name":"Product Name",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Nike Sneakers",
+    "price":3999,
+    "shop":"Panda",
+    "description":"\"just do it\" Designed to boost your confidence",
+    "imagePath":"/res/shoes_res/shoeimg10.jpg",
+    "productID":9,
+    "productUserID":"SH9",
+    "productCat":"shoes"
 }
 
 ]

@@ -48,6 +48,7 @@
 }
 .itemImageContainer{
     overflow: hidden;
+    /* height:70%; */
 }
 .itemContainer:hover{
     transition:1s;
@@ -64,11 +65,13 @@
 }
 .itemDetails{
     height:30%;
+    /* min-height: 30%;; */
     margin-left:1rem;
 }
 .itemName{
     color:#100;
     font-size:3rem;
+    display: inline;
 }
 .itemPrice{
     color:black;

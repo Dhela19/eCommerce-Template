@@ -1,91 +1,112 @@
 [
     {
-         "name":"Bag1",
-         "price":1000,
-         "shop":"shopName",
-         "description":"this is the description of this product",
-         "imagePath":"./demo.png",
-         "productID":100
+         "name":"6 in 1 Round Neck T-Shirts",
+         "price":15000,
+         "shop":"Amazon",
+         "description":"choose your style from a collection of this t-shirts for your needs",
+          "imagePath":"/res/bodywears_res/wears1006.jpg",
+         "productID":0,
+         "productUserID":"BW0",
+         "productCat":"bodywears"
     },
 
     {
-        "name":"Bag2",
+        "name":"Varsity Jacket - Black and White",
         "price":1000,
-        "shop":"shopName",
+        "shop":"Amazon",
         "description":"this is the description of this product",
-        "imagePath":"./demo.png",
-        "productID":100
+         "imagePath":"/res/bodywears_res/wears1001.jpg",
+        "productID":1,
+        "productUserID":"BW1",
+        "productCat":"bodywears"
    },
 
    {
-    "name":"Bag3",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Ladies Free A - Line Gown",
+    "price":5999,
+    "shop":"Panda",
+    "description":"Grab the attention with this unique design",
+    "imagePath":"/res/bodywears_res/wears1009.jpg",
+    "productID":2,
+    "productUserID":"BW2",
+    "productCat":"shoes"
 },
 
 {
-    "name":"Bag4",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Hally Bodycon Strapless Velvet Dress with Belt - Wine Red",
+    "price":3500,
+    "shop":"Amazon",
+    "description":"Meant for your ceremonial cravings",
+    "imagePath":"/res/bodywears_res/wears1007.jpg",
+    "productID":3,
+    "productUserID":"BW3",
+    "productCat":"bodywears"
 },
 
 {
-    "name":"Bag5",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Casual Fitted Men's Denim Jacket",
+    "price":9500,
+    "shop":"Ebay",
+    "description":"Fittings for your next location",
+    "imagePath":"/res/bodywears_res/wears1002.jpg",
+    "productID":4,
+    "productUserID":"BW4",
+    "productCat":"bodywears"
 },
 
 {
-    "name":"Bag6",
-    "price":1000,
+    "name":"Hoodie And Joggers With Liverpool Prints - Black",
+    "price":13000,
     "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "description":"Boost your confidence with this",
+    "imagePath":"/res/bodywears_res/wears1004.jpg",
+    "productID":5,
+    "productUserID":"BW5",
+    "productCat":"bodywears"
 },
 
 {
-    "name":"Bag7",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Corporate Black Midi Dress",
+    "price":6000,
+    "shop":"Panda",
+    "description":"off to work?",
+    "imagePath":"/res/bodywears_res/wears1010.jpg",
+    "productID":6,
+    "productUserID":"BW6",
+    "productCat":"bodywears"
 },
 
 {
-    "name":"Bag8",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Fitted Coporate Gown",
+    "price":5999,
+    "shop":"Panda",
+    "description":"Best for formal activities",
+     "imagePath":"/res/bodywears_res/wears1008.jpg",
+    "productID":7,
+    "productUserID":"BW7",
+    "productCat":"bodywears"
 },
 
 {
-    "name":"Bag9",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Quality Male Jean",
+    "price":3589,
+    "shop":"Amazon",
+    "description":"Suiting for every male",
+    "imagePath":"./res/bodywears_res/wears1003.jpg",
+    "productID":8,
+    "productUserID":"BW8",
+    "productCat":"bodywears"
 },
 
 {
-    "name":"Bag10",
-    "price":1000,
-    "shop":"shopName",
-    "description":"this is the description of this product",
-    "imagePath":"./demo.png",
-    "productID":100
+    "name":"Ladies Shirt Dress - Red",
+    "price":3999,
+    "shop":"Panda",
+    "description":"Your next choice on an outing event",
+    "imagePath":"/res/bodywears_res/wears1005.jpg",
+    "productID":9,
+    "productUserID":"BW9",
+    "productCat":"bodywears"
 }
+
 ]
